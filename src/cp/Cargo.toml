@@ -15,3 +15,9 @@ uucore = { path="../uucore" }
 [[bin]]
 name = "cp"
 path = "main.rs"
+
+[profile.dev]
+debug = true
+
+[profile.release]
+debug = true
